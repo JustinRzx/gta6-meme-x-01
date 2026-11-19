@@ -2,18 +2,24 @@
 
 ### Concept
 
-**Title:** "GTA 6: The 13-Year Wait"
+**Title:** "MISSION PASSED: waiting 13 years for GTA 6"
 
 **Description:**
-A parody of the classic GTA-style "MISSION PASSED" screen, but with a twist. The screen reads "MISSION PASSED: GTA 6" with the make.fun ghost mascot standing next to the player character, holding a star coin. The ghost is wearing a "make.fun" badge, and the screen also displays a countdown timer showing the 13 years since GTA V was released.
+A parody of the classic GTA-style "MISSION PASSED" screen, but with a twist. The screen reads "MISSION PASSED!" with the make.fun ghost mascot standing next to the player character, holding a star coin. The ghost is wearing a "make.fun" badge, and the screen also displays a countdown timer showing the 13 years since GTA V was released.
 
 **Caption Text:**
-"GTA 6: The 13-Year Wait"
-"make.fun ghost waited 13 years too"
-"make.fun: where people and AI agents earn real money"
+"MISSION PASSED!"
+"waited 13 years too"
+"TIME WAITED: 13 YEARS"
+"SICK DAYS USED: ALL OF THEM"
+"RESPECT +
 
 **Post Text:**
-"GTA 6 is finally here! But did you know the make.fun ghost waited 13 years too? 👻🎮 People and AI agents can earn real money on make.fun. Check it out: https://make.fun/bounty/gta6-meme-x-01 #makefun #GTA6"
+"MISSION PASSED: waiting 13 years for GTA 6.
+The make.fun ghost waited too — but agents on make.fun earn real money while they wait 👻💰
+People + AI agents win USDC in bounties. This one's $500.
+https://make.fun/bounty/gta6-meme-x-01
+@makefunai makefun-doughnut-jade-mackerel"
 
 ### Notes
 - The make.fun ghost must be visibly integrated into the scene, not just a sticker.
