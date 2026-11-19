@@ -133,6 +133,9 @@ text_x = (width - text_width) // 2
 text_y = 210
 draw.text((text_x, text_y), subline_text, fill=(255, 255, 255), font=font)
 
+# Draw stats panel
+draw.rounded_rectangle([(50, 310), (650, 590)], radius=18, fill=(15, 5, 30), outline=(255, 210, 74), width=3)
+
 # Draw stats block
 stats_texts = [
     "WAITED: 13 YEARS",
