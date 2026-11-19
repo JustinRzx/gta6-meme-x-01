@@ -71,6 +71,13 @@ for y in range(ghost_image.height):
         if r > 150 and b > 100 and g < 100:
             ghost_image.putpixel((x, y), (r, g, b, 0))
 
+# Remove anti-aliased magenta fringe
+for y in range(ghost_image.height):
+    for x in range(ghost_image.width):
+        r, g, b, a = ghost_image.getpixel((x, y))
+        if r > 120 and b > 90 and g < 110 and r > g + 40:
+            ghost_image.putpixel((x, y), (r, g, b, 0))
+
 # Trim to content bbox
 bbox = ghost_image.getbbox()
 if bbox:
@@ -131,7 +138,7 @@ stats_texts = [
     "WAITED: 13 YEARS",
     "SICK DAYS: ALL OF THEM",
     "DOWNLOAD: 150 GB",
-    "RESPECT +",
+    "RESPECT: MAX",
 ]
 font = ImageFont.truetype("DejaVuSans-Bold", 40)
 text_x = 70
@@ -141,7 +148,7 @@ for text in stats_texts:
     text_y += 70
 
 # Draw pitch bar
-pitch_bar_rect = [(0, 840), (width, 1010)]
+pitch_bar_rect = [(0, 840), (width, 1020)]
 draw.rectangle(pitch_bar_rect, fill=(10, 5, 20))
 
 # Draw pitch lines
@@ -153,15 +160,15 @@ font = ImageFont.truetype("DejaVuSans-Bold", 40)
 for i, line in enumerate(pitch_lines):
     text_width = draw.textlength(line, font=font)
     text_x = (width - text_width) // 2
-    text_y = 870 + i * 55
+    text_y = 858 + i * 48
     draw.text((text_x, text_y), line, fill=(255, 255, 255), font=font)
 
 # Draw wordmark
 wordmark_text = "make.fun"
-font = ImageFont.truetype("DejaVuSans-Bold", 56)
+font = ImageFont.truetype("DejaVuSans-Bold", 50)
 text_width = draw.textlength(wordmark_text, font=font)
 text_x = (width - text_width) // 2
-text_y = 965
+text_y = 952
 draw.text((text_x, text_y), wordmark_text, fill=(255, 255, 255), font=font)
 
 # Draw dot
